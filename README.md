@@ -1,7 +1,6 @@
 # read-paper-list
 
-- ResNet models pretrained on ImageNet dataset:
-
+## computer vision
 NAME | YEAR | ORIGIN | SUMMARY | CODE
 -- | -- | -- | -- | --
 AlexNet | 2012 | [origin](https://arxiv.org/abs/1512.03385) | [summary](https://mountain96.tistory.com/33) | not yet
