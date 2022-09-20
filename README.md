@@ -6,6 +6,7 @@
   - [Object Detection](#object-detection)
 - [Semi Supervised Learning](#semi-supervised-learning)
   - [Computer Vision](#computer-vision)
+- [ETC.](#etc.)
   
 <br>
     
@@ -53,21 +54,33 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 [U-Net](https://arxiv.org/pdf/1505.04597.pdf) | 2015 | - | - | -
 
 <br>
+<br>
 
 ## Semi Supervised Learning
 
 ### Computer Vision
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 -- | -- | -- | -- | --
-[Meta Pseudo Labeles](https://arxiv.org/abs/2003.10580) | 2021 | - | - | -
+[Pseudo Label](https://www.researchgate.net/publication/280581078_Pseudo-Label_The_Simple_and_Efficient_Semi-Supervised_Learning_Method_for_Deep_Neural_Networks) | 2013 | [korean](https://deep-learning-study.tistory.com/553) | - | -
+[Meta Pseudo Labels](https://arxiv.org/abs/2003.10580) | 2021 | - | - | -
 
 <br>
+
+## ETC.
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+-- | -- | -- | -- | --
+
+
 
 -------------------------------------
 
 <br>
 
 ## Later Reading Paper List
+- [Unsupervised Data Augmentation](https://arxiv.org/abs/1904.12848), [review](https://medium.com/platfarm/unsupervised-data-augmentation-for-consistency-training-5bcd52d3f01b)
+
+<br>
+
 - LSTM
 - Transformer
 
