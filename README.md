@@ -22,7 +22,7 @@
 ### Image Classification
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 -- | -- | -- | -- | --
-[AlexNet](https://arxiv.org/abs/1512.03385) | NeurlPS 2012 | [korean](https://mountain96.tistory.com/33) | - | -
+[AlexNet](https://arxiv.org/abs/1512.03385) | NeurIPS 2012 | [korean](https://mountain96.tistory.com/33) | - | -
 [Vgg](https://arxiv.org/pdf/1409.1556.pdf) | ICLR 2015 | - | - | -
 [GoogleNet](https://arxiv.org/pdf/1409.4842v1.pdf) | CVPR 2015 | [korean](https://phil-baek.tistory.com/entry/3-GoogLeNet-Going-deeper-with-convolutions-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0) | - | -
 [ResNet](https://arxiv.org/pdf/1512.03385.pdf) | CVPR 2015 | - | - | -
@@ -39,13 +39,18 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 ### Object Detection
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 -- | -- | -- | -- | --
-[RCNN]
-[Fast-RCNN]
-[Faster-RCNN]
-[Mask-RCNN]
-[FPN]
-[YOLO]
-[SSD]
+[RCNN](https://arxiv.org/abs/1311.2524) | 2014 | - | - | -
+[Fast-RCNN](http://arxiv.org/abs/1504.08083) | 2015 | - | - | -
+[Faster-RCNN](http://arxiv.org/abs/1506.01497) | NeurIPS 2015 | - | - | -
+[Mask-RCNN](https://arxiv.org/pdf/1703.06870.pdf) | 2017 | - | - | -
+[FPN](https://arxiv.org/abs/1612.03144) | 2017 | - | - | -
+[YOLO](http://arxiv.org/abs/1506.02640) | 2016 | - | - | -
+[SSD](http://arxiv.org/abs/1512.02325) | 2016 | - | - | -
+
+### Image Segmentation
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+-- | -- | -- | -- | --
+[U-Net](https://arxiv.org/pdf/1505.04597.pdf) | 2015 | - | - | -
 
 <br>
 
@@ -54,7 +59,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 ### Computer Vision
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 -- | -- | -- | -- | --
-[Meta Pseudo Labeles]
+[Meta Pseudo Labeles](https://arxiv.org/abs/2003.10580) | 2021 | - | - | -
 
 <br>
 
