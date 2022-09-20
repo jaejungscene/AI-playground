@@ -86,10 +86,16 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 
 <br>
 
+- about autoML
+- [DARTS](https://arxiv.org/abs/1806.09055)
 - NASNet
 - RegNet
 - NFNet
 - SwinT
+
+<br>
+
+- [stochastic depth](https://arxiv.org/abs/1603.09382v3)
 
 <br>
 
