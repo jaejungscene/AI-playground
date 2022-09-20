@@ -6,7 +6,7 @@
   - [Object Detection](#object-detection)
 - [Semi Supervised Learning](#semi-supervised-learning)
   - [Computer Vision](#computer-vision)
-- [ETC.](#etc.)
+- [ETC.](#etc)
   
 <br>
     
@@ -62,7 +62,8 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 -- | -- | -- | -- | --
 [Pseudo Label](https://www.researchgate.net/publication/280581078_Pseudo-Label_The_Simple_and_Efficient_Semi-Supervised_Learning_Method_for_Deep_Neural_Networks) | 2013 | [korean](https://deep-learning-study.tistory.com/553) | - | -
-[Meta Pseudo Labels](https://arxiv.org/abs/2003.10580) | 2021 | - | - | -
+[Noisy Student](https://arxiv.org/abs/1911.04252) | CVPR 2020 | - | - | -
+[Meta Pseudo Labels](https://arxiv.org/abs/2003.10580) | CVPR 2021 | [korean](https://kmhana.tistory.com/33) | - | -
 
 <br>
 
