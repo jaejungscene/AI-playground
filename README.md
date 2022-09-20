@@ -1,18 +1,23 @@
 # Read Paper List
-This is a list of books I read.
+:sunny:&nbsp;This is a list of every paper I read.
 
-- [Computer Vision Architecture](#computer-vision-architecture)
+- [Computer Vision](#computer-vision)
   - [Image Classification](#image-classification)
   - [Object Detection](#object-detection)
 - [Semi Supervised Learning](#semi-supervised-learning)
   - [Computer Vision](#computer-vision)
+  
 <br>
     
-[Reading Paper List Later](#reading-paper-list-later)
+[Later Reading Paper List](#later-reading-paper-list)
 
 <br>
 
-## Computer Vision Architecture
+-------------------------------------------------------
+
+<br>
+
+## Computer Vision
 
 ### Image Classification
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
@@ -21,14 +26,15 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 [Vgg](https://arxiv.org/pdf/1409.1556.pdf) | ICLR 2015 | - | - | -
 [GoogleNet](https://arxiv.org/pdf/1409.4842v1.pdf) | CVPR 2015 | [korean](https://phil-baek.tistory.com/entry/3-GoogLeNet-Going-deeper-with-convolutions-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0) | - | -
 [ResNet](https://arxiv.org/pdf/1512.03385.pdf) | CVPR 2015 | - | - | -
-[ResNext]
-[MobileNet]
-[MobileNetV2]
-[SENet]
-[CBAM]
-[MobileNetV3]
-[EfficientNet]
-[ViT]
+[ResNext](https://arxiv.org/pdf/1611.05431.pdf) | CVPR 2017 | - | - | -
+[MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | arXiv 2017 | - | - | -
+[MobileNetV2](https://arxiv.org/pdf/1801.04381.pdf) | CVPR 2018 | - | - | -
+[SENet](https://arxiv.org/pdf/1709.01507.pdf) | CVPR 2018 | - | - | -
+[CBAM](https://arxiv.org/pdf/1807.06521.pdf) | ECCV 2018 | - | - | -
+[MobileNetV3](https://arxiv.org/pdf/1905.02244v5.pdf) | CVPR 2019 | - | - | -
+[EfficientNet](https://arxiv.org/pdf/1905.11946.pdf) | ICML 2019 | - | - | -
+[ViT](https://arxiv.org/pdf/2010.11929.pdf) | ICLR 2021 | - | - | -
+[DeiT](https://arxiv.org/abs/2012.12877) | ICML 2021 | - | - | -
 
 ### Object Detection
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
@@ -41,6 +47,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 [YOLO]
 [SSD]
 
+<br>
 
 ## Semi Supervised Learning
 
@@ -49,13 +56,23 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 -- | -- | -- | -- | --
 [Meta Pseudo Labeles]
 
+<br>
 
 -------------------------------------
-## Reading Paper List Later
+
+<br>
+
+## Later Reading Paper List
+- LSTM
+- Transformer
+
+<br>
+
 - NASNet
 - RegNet
 - NFNet
 - SwinT
+
 <br>
 
 - DenseNet
