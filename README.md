@@ -4,6 +4,8 @@
 - [Computer Vision](#computer-vision)
   - [Image Classification](#image-classification)
   - [Object Detection](#object-detection)
+  - [Image Segmentation](#image-segmentation)
+- [NLP](#nlp)
 - [Semi Supervised Learning](#semi-supervised-learning)
   - [Computer Vision](#computer-vision)
 - [ETC.](#etc)
@@ -53,6 +55,21 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 -- | -- | -- | -- | --
 [U-Net](https://arxiv.org/pdf/1505.04597.pdf) | 2015 | - | - | -
 
+### Super Resolution
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+-- | -- | -- | -- | --
+[SRCNN]
+[SRGAN]
+
+<br>
+<br>
+
+## NLP
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+-- | -- | -- | -- | --
+CBoW | - | - | - | -
+
+
 <br>
 <br>
 
@@ -82,6 +99,8 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 
 <br>
 
+- skip-gram
+- GloVe
 - LSTM
 - Transformer
 
