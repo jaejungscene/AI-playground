@@ -30,8 +30,8 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 [ResNext](https://arxiv.org/pdf/1611.05431.pdf) | CVPR 2017 | - | - | -
 [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | arXiv 2017 | - | - | -
 [MobileNetV2](https://arxiv.org/pdf/1801.04381.pdf) | CVPR 2018 | - | - | -
-[SENet](https://arxiv.org/pdf/1709.01507.pdf) | CVPR 2018 | - | - | -
-[CBAM](https://arxiv.org/pdf/1807.06521.pdf) | ECCV 2018 | - | - | -
+[SENet](https://arxiv.org/pdf/1709.01507.pdf) | CVPR 2018 | - | - | [pytorch](https://github.com/jaejungscene/read-paper-list/blob/main/code/seblock.py)
+[CBAM](https://arxiv.org/pdf/1807.06521.pdf) | ECCV 2018 | - | - | [pytorch](https://github.com/jaejungscene/read-paper-list/blob/main/code/cbam.py)
 [MobileNetV3](https://arxiv.org/pdf/1905.02244v5.pdf) | CVPR 2019 | - | - | -
 [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf) | ICML 2019 | - | - | -
 [ViT](https://arxiv.org/pdf/2010.11929.pdf) | ICLR 2021 | - | - | -
