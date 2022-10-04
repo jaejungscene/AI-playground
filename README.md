@@ -36,6 +36,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 [CBAM](https://arxiv.org/pdf/1807.06521.pdf) | ECCV 2018 | - | - | [pytorch](https://github.com/jaejungscene/read-paper-list/blob/main/code/cbam.py)
 [MobileNetV3](https://arxiv.org/pdf/1905.02244v5.pdf) | CVPR 2019 | - | - | -
 [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf) | ICML 2019 | - | - | -
+[RegNet](https://arxiv.org/abs/2003.13678) | CVPR 2020 | [korean](https://2-chae.github.io/category/2.papers/31) | - | -
 [ViT](https://arxiv.org/pdf/2010.11929.pdf) | ICLR 2021 | - | - | -
 [DeiT](https://arxiv.org/abs/2012.12877) | ICML 2021 | - | - | -
 
@@ -58,8 +59,16 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 ### Super Resolution
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 -- | -- | -- | -- | --
-[SRCNN]
-[SRGAN]
+[SRCNN](https://arxiv.org/abs/1501.00092)| - | - | - | -
+[SRGAN](https://arxiv.org/abs/1609.04802)| - | - | - | -
+
+
+### Domain Generalization
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+-- | -- | -- | -- | --
+[Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification](https://arxiv.org/pdf/2012.00417.pdf) | CVPR 2021 | -- | -- | --
+
+
 
 <br>
 <br>
@@ -79,7 +88,7 @@ CBoW | - | - | - | -
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 -- | -- | -- | -- | --
 [Pseudo Label](https://www.researchgate.net/publication/280581078_Pseudo-Label_The_Simple_and_Efficient_Semi-Supervised_Learning_Method_for_Deep_Neural_Networks) | 2013 | [korean](https://deep-learning-study.tistory.com/553) | - | -
-[Noisy Student](https://arxiv.org/abs/1911.04252) | CVPR 2020 | - | - | -
+[Noisy Student](https://arxiv.org/abs/1911.04252) | CVPR 2020 | [korean](https://2-chae.github.io/category/2.papers/24) | - | -
 [Meta Pseudo Labels](https://arxiv.org/abs/2003.10580) | CVPR 2021 | [korean](https://kmhana.tistory.com/33) | - | -
 
 <br>
@@ -109,7 +118,6 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 - about autoML
 - [DARTS](https://arxiv.org/abs/1806.09055)
 - NASNet
-- RegNet
 - NFNet
 - SwinT
 
@@ -118,7 +126,8 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 - [stochastic depth](https://arxiv.org/abs/1603.09382v3)
 
 <br>
-
+- [Residual Attention Network](https://arxiv.org/abs/1704.06904)
 - DenseNet
 - Xception
 - ShuffleNet
+- inceptino
