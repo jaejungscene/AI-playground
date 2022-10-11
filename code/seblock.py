@@ -1,3 +1,8 @@
+"""
+implementation of Squeeze and Excitation block
+attach SEblock to every part of the end of the model's block you make 
+"""
+
 import torch.nn as nn
 
 class ConvNormAct(nn.Sequential):
