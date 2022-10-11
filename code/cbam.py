@@ -1,3 +1,8 @@
+"""
+implementation CBAM(Convolutional Block Attention Module)
+attach this module to every part of the end of the model's block you make 
+"""
+
 import torch
 import torch.nn as nn
 
