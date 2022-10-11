@@ -5,6 +5,8 @@
   - [Image Classification](#image-classification)
   - [Object Detection](#object-detection)
   - [Image Segmentation](#image-segmentation)
+  - [Super Resolution](#super-resolution)
+  - [Domain Generalization](#domain-generalization)
 - [NLP](#nlp)
 - [Semi Supervised Learning](#semi-supervised-learning)
   - [Computer Vision](#computer-vision)
@@ -23,7 +25,7 @@
 ## Computer Vision
 
 ### Image Classification
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
 [AlexNet](https://arxiv.org/abs/1512.03385) | NeurIPS 2012 | [korean](https://mountain96.tistory.com/33) | [notion](https://www.notion.so/AlexNet-Deep-Residual-Learning-for-Image-Recognition-0326ff266aa04d59b0202f1f4bfe4cae) | -
 [Vgg](https://arxiv.org/pdf/1409.1556.pdf) | ICLR 2015 | - | [notion](https://www.notion.so/Vgg-Very-Deep-Convolutional-Networks-for-Large-scale-Image-Recognition-b1e089011bc7480f916ced0cb186cf9f) | -
@@ -41,7 +43,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 [DeiT](https://arxiv.org/abs/2012.12877) | ICML 2021 | - | - | -
 
 ### Object Detection
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
 [RCNN](https://arxiv.org/abs/1311.2524) | 2014 | - | - | -
 [Fast-RCNN](http://arxiv.org/abs/1504.08083) | 2015 | - | - | -
@@ -52,31 +54,28 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 [SSD](http://arxiv.org/abs/1512.02325) | 2016 | - | - | -
 
 ### Image Segmentation
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
 [U-Net](https://arxiv.org/pdf/1505.04597.pdf) | 2015 | - | - | -
 
 ### Super Resolution
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
 [SRCNN](https://arxiv.org/abs/1501.00092)| - | - | - | -
 [SRGAN](https://arxiv.org/abs/1609.04802)| - | - | - | -
 
-
 ### Domain Generalization
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
 [Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification](https://arxiv.org/pdf/2012.00417.pdf) | CVPR 2021 | -- | -- | --
-
-
 
 <br>
 <br>
 
 ## NLP
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
-CBoW | - | - | - | -
+[CBoW & skip-gram](https://arxiv.org/abs/1301.3781v3) | - | - | - | [only python](https://github.com/jaejungscene/Deep_Learning_from_Scratch/tree/main/Volume_2/ch04)
 
 
 <br>
@@ -85,7 +84,7 @@ CBoW | - | - | - | -
 ## Semi Supervised Learning
 
 ### Computer Vision
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
 [Pseudo Label](https://www.researchgate.net/publication/280581078_Pseudo-Label_The_Simple_and_Efficient_Semi-Supervised_Learning_Method_for_Deep_Neural_Networks) | 2013 | [korean](https://deep-learning-study.tistory.com/553) | - | -
 [Noisy Student](https://arxiv.org/abs/1911.04252) | CVPR 2020 | [korean](https://2-chae.github.io/category/2.papers/24) | - | -
@@ -94,7 +93,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 <br>
 
 ## ETC.
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
 
 
@@ -108,9 +107,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | MY CODE
 
 <br>
 
-- skip-gram
 - GloVe
-- LSTM
 - Transformer
 
 <br>
