@@ -1,6 +1,6 @@
 """
 implementation of CBAM(Convolutional Block Attention Module)
-attach CBAM module to every part of the end of the model's block you make 
+attach CBAM module to any part of the end of the model's block you want
 """
 
 import torch
