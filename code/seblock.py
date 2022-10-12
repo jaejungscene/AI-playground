@@ -1,6 +1,6 @@
 """
 implementation of Squeeze and Excitation block
-attach SEblock to every part of the end of the model's block you make 
+attach SEblock to any part of the end of the model's block you want
 """
 
 import torch.nn as nn
