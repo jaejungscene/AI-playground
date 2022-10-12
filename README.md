@@ -10,7 +10,7 @@
 - [NLP](#nlp)
 - [Semi Supervised Learning](#semi-supervised-learning)
   - [Computer Vision](#computer-vision)
-- [ETC.](#etc)
+- [Util](#util)
   
 <br>
     
@@ -77,7 +77,6 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
 [CBoW & skip-gram](https://arxiv.org/abs/1301.3781v3) | - | - | - | [only python](https://github.com/jaejungscene/Deep_Learning_from_Scratch/tree/main/Volume_2/ch04)
 
-
 <br>
 <br>
 
@@ -91,11 +90,13 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 [Meta Pseudo Labels](https://arxiv.org/abs/2003.10580) | CVPR 2021 | [korean](https://kmhana.tistory.com/33) | - | -
 
 <br>
+<br>
 
-## ETC.
+## Util
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
-
+[Temperature Scaling](https://paperswithcode.com/paper/on-calibration-of-modern-neural-networks) | ICML 2017 | - | - | -
+[Label Smoothing](https://arxiv.org/abs/1906.02629) | 2019 | - | - | -
 
 
 -------------------------------------
