@@ -27,15 +27,15 @@
 ### Image Classification
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY SUMMARY | CODE
 -- | -- | -- | -- | --
-[AlexNet](https://arxiv.org/abs/1512.03385) | NeurIPS 2012 | [korean](https://mountain96.tistory.com/33) | [notion](https://www.notion.so/AlexNet-Deep-Residual-Learning-for-Image-Recognition-0326ff266aa04d59b0202f1f4bfe4cae) | -
-[Vgg](https://arxiv.org/pdf/1409.1556.pdf) | ICLR 2015 | - | [notion](https://www.notion.so/Vgg-Very-Deep-Convolutional-Networks-for-Large-scale-Image-Recognition-b1e089011bc7480f916ced0cb186cf9f) | -
+[AlexNet](https://arxiv.org/abs/1512.03385) | NeurIPS 2012 | [korean](https://mountain96.tistory.com/33) | [notion](https://voltaic-chipmunk-57d.notion.site/AlexNet-Deep-Residual-Learning-for-Image-Recognition-0326ff266aa04d59b0202f1f4bfe4cae) | -
+[Vgg](https://arxiv.org/pdf/1409.1556.pdf) | ICLR 2015 | - | [notion](https://voltaic-chipmunk-57d.notion.site/Vgg-Very-Deep-Convolutional-Networks-for-Large-scale-Image-Recognition-b1e089011bc7480f916ced0cb186cf9f) | -
 [GoogleNet](https://arxiv.org/pdf/1409.4842v1.pdf) | CVPR 2015 | [korean](https://phil-baek.tistory.com/entry/3-GoogLeNet-Going-deeper-with-convolutions-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0) | - | -
 [ResNet](https://arxiv.org/pdf/1512.03385.pdf) | CVPR 2015 | - | - | -
 [ResNext](https://arxiv.org/pdf/1611.05431.pdf) | CVPR 2017 | - | - | -
 [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | arXiv 2017 | - | - | -
 [MobileNetV2](https://arxiv.org/pdf/1801.04381.pdf) | CVPR 2018 | - | - | -
-[SENet](https://arxiv.org/pdf/1709.01507.pdf) | CVPR 2018 | - | - | [pytorch](https://github.com/jaejungscene/read-paper-list/blob/main/code/seblock.py)
-[CBAM](https://arxiv.org/pdf/1807.06521.pdf) | ECCV 2018 | - | - | [pytorch](https://github.com/jaejungscene/read-paper-list/blob/main/code/cbam.py)
+[SENet](https://arxiv.org/pdf/1709.01507.pdf) | CVPR 2018 | - | - | [mycode](https://github.com/jaejungscene/read-paper-list/blob/main/code/seblock.py)
+[CBAM](https://arxiv.org/pdf/1807.06521.pdf) | ECCV 2018 | - | - | [mycode](https://github.com/jaejungscene/read-paper-list/blob/main/code/cbam.py)
 [MobileNetV3](https://arxiv.org/pdf/1905.02244v5.pdf) | CVPR 2019 | - | - | -
 [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf) | ICML 2019 | - | - | -
 [RegNet](https://arxiv.org/abs/2003.13678) | CVPR 2020 | [korean](https://2-chae.github.io/category/2.papers/31) | - | -
