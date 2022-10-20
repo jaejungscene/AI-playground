@@ -35,6 +35,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 [ResNext](https://arxiv.org/pdf/1611.05431.pdf) | CVPR 2017 | - | - | -
 [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | 2017 | - | - | -
 [MobileNetV2](https://arxiv.org/pdf/1801.04381.pdf) | CVPR 2018 | - | - | -
+[Non-local Neural Net] | CVPR 2018 | [korean](https://blog.lunit.io/2018/01/19/non-local-neural-networks/) | - | - | -
 [SENet](https://arxiv.org/pdf/1709.01507.pdf) | CVPR 2018 | - | - | [mycode](https://github.com/jaejungscene/read-paper-list/blob/main/code/seblock.py)
 [CBAM](https://arxiv.org/pdf/1807.06521.pdf) | ECCV 2018 | - | - | [mycode](https://github.com/jaejungscene/read-paper-list/blob/main/code/cbam.py)
 [MobileNetV3](https://arxiv.org/pdf/1905.02244v5.pdf) | CVPR 2019 | - | - | -
