@@ -41,7 +41,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 [MobileNetV3](https://arxiv.org/pdf/1905.02244v5.pdf) | CVPR 2019 | - | - | -
 [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf) | ICML 2019 | - | - | -
 [RegNet](https://arxiv.org/abs/2003.13678) | CVPR 2020 | [korean](https://2-chae.github.io/category/2.papers/31) | - | -
-[ViT](https://arxiv.org/pdf/2010.11929.pdf) | ICLR 2021 | - | - | -
+[ViT](https://arxiv.org/pdf/2010.11929.pdf) | ICLR 2021 | [korean](https://gaussian37.github.io/dl-concept-vit/) | - | -
 [DeiT](https://arxiv.org/abs/2012.12877) | ICML 2021 | - | - | -
 
 ### Object Detection
@@ -126,8 +126,15 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 - [stochastic depth](https://arxiv.org/abs/1603.09382v3)
 
 <br>
+
 - [Residual Attention Network](https://arxiv.org/abs/1704.06904)
 - DenseNet
 - Xception
 - ShuffleNet
-- inceptino
+
+<br>
+
+- [AutoAugmentation](https://paperswithcode.com/method/autoaugment)
+- [Greedy Polciay Search](https://paperswithcode.com/method/gps)
+- [Mixup](https://paperswithcode.com/method/mixup)
+- [CutMix](https://paperswithcode.com/method/cutmix)
