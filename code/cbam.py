@@ -38,9 +38,9 @@ class CBAM(nn.Module):
         input = input * channel_attention
 
         ## spatial attention ##
-        batch, size,_,_ = input.shape
-        avg_spatial = input.mean(dim=1).reshape(batch, 1, size, -1) # (batch, 1, H, W)
-        max_spatial = input.max(dim=1)[0].reshape(batch, 1, size, -1) # (batch, 1, H, W)
+        batch, _, size,_ = input.shape
+        avg_spatial = input.mean(dim=1).reshape(batch, 1, size, size) # (batch, 1, H, W)
+        max_spatial = input.max(dim=1)[0].reshape(batch, 1, size, size) # (batch, 1, H, W)
         spatial_attention = torch.cat([avg_spatial, max_spatial], 1)
         spatial_attention = self.conv_spatial(spatial_attention)
         input = input * spatial_attention
