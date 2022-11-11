@@ -7,6 +7,7 @@
   - [Image Segmentation](#image-segmentation)
   - [Super Resolution](#super-resolution)
   - [Domain Generalization](#domain-generalization)
+  - [Data Augmentation](#data-augmentation)
 - [NLP](#nlp)
 - [Semi Supervised Learning](#semi-supervised-learning)
   - [Computer Vision](#computer-vision)
@@ -70,7 +71,15 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 ### Domain Generalization
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
-[Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification](https://arxiv.org/pdf/2012.00417.pdf) | CVPR 2021 | -- | -- | --
+[Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification](https://arxiv.org/pdf/2012.00417.pdf) | CVPR 2021 | - | - | -
+
+### Data Augmentation
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
+-- | -- | -- | -- | --
+[Mixup](https://arxiv.org/pdf/1710.09412.pdf) | 2019 | - | - | -
+[Cutmix](https://arxiv.org/pdf/1905.04899.pdf) | 2019 | - | - | -
+[AutoAugment](https://arxiv.org/pdf/1805.09501v3.pdf) | 2019 | - | - | -
+[RandAugment](https://arxiv.org/pdf/1909.13719.pdf) | 2019 | - | - | -
 
 <br>
 <br>
