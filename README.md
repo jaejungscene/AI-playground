@@ -40,7 +40,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 [MobileNetV2](https://arxiv.org/pdf/1801.04381.pdf) | CVPR 2018 | - | - | [Inverted Residual block](https://github.com/jaejungscene/AI_read-paper-list/blob/9d6ad804fb9b0f2db548719792bacfef77d1057e/code/simple_mobilenetV3.py#L22)
 [SENet](https://arxiv.org/pdf/1709.01507.pdf) | CVPR 2018 | - | - | [SE block](https://github.com/jaejungscene/read-paper-list/blob/main/code/seblock.py)
 [CBAM](https://arxiv.org/pdf/1807.06521.pdf) | ECCV 2018 | - | - | [CBAM block](https://github.com/jaejungscene/read-paper-list/blob/main/code/cbam.py)
-[MobileNetV3](https://arxiv.org/pdf/1905.02244v5.pdf) | CVPR 2019 | - | - | [simple mobilenetV3](https://github.com/jaejungscene/AI_read-paper-list/blob/9d6ad804fb9b0f2db548719792bacfef77d1057e/code/simple_mobilenetV3.py#L59)
+[MobileNetV3](https://arxiv.org/pdf/1905.02244v5.pdf) | CVPR 2019 | - | - | [hswish, simple mobilenetV3](https://github.com/jaejungscene/AI_read-paper-list/blob/e38afeba877691aaeeb808944435a9797a73eff5/code/simple_mobilenetV3.py#L1)
 [EfficientNet](https://arxiv.org/pdf/1905.11946.pdf) | ICML 2019 | - | - | -
 [RegNet](https://arxiv.org/abs/2003.13678) | CVPR 2020 | [korean](https://2-chae.github.io/category/2.papers/31) | - | -
 [ViT](https://arxiv.org/pdf/2010.11929.pdf) | ICLR 2021 | [korean](https://gaussian37.github.io/dl-concept-vit/) | - | -
