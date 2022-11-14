@@ -3,6 +3,7 @@
 
 - [Computer Vision](#computer-vision)
   - [Image Classification](#image-classification)
+  - [Action Classificatin](#action-classification)
   - [Object Detection](#object-detection)
   - [Image Segmentation](#image-segmentation)
   - [Image Super Resolution](#image-super-resolution)
@@ -37,7 +38,6 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 [WideResNet](https://paperswithcode.com/method/wideresnet) | 2017 | - | - 
 [MobileNet](https://arxiv.org/pdf/1704.04861.pdf) | 2017 | - | - | [Depthwise Separable Conv block](https://github.com/jaejungscene/AI_read-paper-list/blob/main/code/DepthwiseSeparableConv.py)
 [MobileNetV2](https://arxiv.org/pdf/1801.04381.pdf) | CVPR 2018 | - | - | [Inverted Residual block](https://github.com/jaejungscene/AI_read-paper-list/blob/9d6ad804fb9b0f2db548719792bacfef77d1057e/code/simple_mobilenetV3.py#L22)
-[Non-local Neural Net](https://paperswithcode.com/paper/non-local-neural-networks) | CVPR 2018 | [korean](https://blog.lunit.io/2018/01/19/non-local-neural-networks/) | - | - | -
 [SENet](https://arxiv.org/pdf/1709.01507.pdf) | CVPR 2018 | - | - | [SE block](https://github.com/jaejungscene/read-paper-list/blob/main/code/seblock.py)
 [CBAM](https://arxiv.org/pdf/1807.06521.pdf) | ECCV 2018 | - | - | [CBAM block](https://github.com/jaejungscene/read-paper-list/blob/main/code/cbam.py)
 [MobileNetV3](https://arxiv.org/pdf/1905.02244v5.pdf) | CVPR 2019 | - | - | [simple mobilenetV3](https://github.com/jaejungscene/AI_read-paper-list/blob/9d6ad804fb9b0f2db548719792bacfef77d1057e/code/simple_mobilenetV3.py#L59)
@@ -45,6 +45,11 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 [RegNet](https://arxiv.org/abs/2003.13678) | CVPR 2020 | [korean](https://2-chae.github.io/category/2.papers/31) | - | -
 [ViT](https://arxiv.org/pdf/2010.11929.pdf) | ICLR 2021 | [korean](https://gaussian37.github.io/dl-concept-vit/) | - | -
 [DeiT](https://arxiv.org/abs/2012.12877) | ICML 2021 | - | - | -
+
+### Action Classification
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
+-- | -- | -- | -- | --
+[Non-local Neural Net](https://paperswithcode.com/paper/non-local-neural-networks) | CVPR 2018 | [korean](https://blog.lunit.io/2018/01/19/non-local-neural-networks/) | - | - | -
 
 ### Object Detection
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
@@ -76,8 +81,8 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 ### Data Augmentation
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
-[Mixup](https://arxiv.org/pdf/1710.09412.pdf) | 2019 | - | - | -
-[Cutmix](https://arxiv.org/pdf/1905.04899.pdf) | 2019 | - | - | -
+[Mixup](https://arxiv.org/pdf/1710.09412.pdf) | 2018 | - | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/mixup.py#L1)
+[Cutmix](https://arxiv.org/pdf/1905.04899.pdf) | 2019 | - | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/cutmix.py#L1)
 [AutoAugment](https://arxiv.org/pdf/1805.09501v3.pdf) | 2019 | - | - | -
 [RandAugment](https://arxiv.org/pdf/1909.13719.pdf) | 2019 | - | - | -
 
@@ -116,35 +121,21 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 <br>
 
 ## Later Reading Paper List
-- [Unsupervised Data Augmentation](https://arxiv.org/abs/1904.12848), [review](https://medium.com/platfarm/unsupervised-data-augmentation-for-consistency-training-5bcd52d3f01b)
-
-<br>
 
 - GloVe
 - Transformer
 
 <br>
 
-- about autoML
 - [DARTS](https://arxiv.org/abs/1806.09055)
 - NASNet
 - NFNet
 - SwinT
-
-<br>
-
-- [stochastic depth](https://arxiv.org/abs/1603.09382v3)
-
-<br>
-
 - [Residual Attention Network](https://arxiv.org/abs/1704.06904)
 - DenseNet
 - Xception
 - ShuffleNet
-
-<br>
-
-- [AutoAugmentation](https://paperswithcode.com/method/autoaugment)
-- [Greedy Polciay Search](https://paperswithcode.com/method/gps)
-- [Mixup](https://paperswithcode.com/method/mixup)
-- [CutMix](https://paperswithcode.com/method/cutmix)
+- [MnasNet](https://arxiv.org/abs/1807.11626v3)(2019)
+- [Stochastic Depth](https://arxiv.org/abs/1603.09382v3)(2016)
+- [Unsupervised Data Augmentation](https://arxiv.org/abs/1904.12848), [review](https://medium.com/platfarm/unsupervised-data-augmentation-for-consistency-training-5bcd52d3f01b)
+- [seam carving](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
