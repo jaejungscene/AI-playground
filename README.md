@@ -76,7 +76,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 ### Domain Generalization
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
-[Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification](https://arxiv.org/pdf/2012.00417.pdf) | CVPR 2021 | - | - | -
+[Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification](https://arxiv.org/pdf/2012.00417.pdf) | CVPR 2021 | - | [highlighting](https://github.com/jaejungscene/AI_read-paper-list) | -
 
 ### Data Augmentation
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
