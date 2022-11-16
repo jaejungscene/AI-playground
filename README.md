@@ -70,6 +70,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 ### Image Super Resolution
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
+[Pixel Shuffle](https://paperswithcode.com/method/pixelshuffle) | 2016 | - | - | -
 [SRCNN](https://arxiv.org/abs/1501.00092)| - | - | - | -
 [SRGAN](https://arxiv.org/abs/1609.04802)| - | - | - | -
 
