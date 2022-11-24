@@ -8,11 +8,10 @@
   - [Image Segmentation](#image-segmentation)
   - [Image Super Resolution](#image-super-resolution)
   - [Domain Generalization](#domain-generalization)
-  - [Data Augmentation](#data-augmentation)
-- [NLP](#nlp)
+- [Util](#util)
 - [Semi Supervised Learning](#semi-supervised-learning)
   - [Computer Vision](#computer-vision)
-- [Util](#util)
+- [NLP](#nlp)
   
 <br>
     
@@ -79,21 +78,19 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
 [Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification](https://arxiv.org/pdf/2012.00417.pdf) | CVPR 2021 | - | [highlighting](https://github.com/jaejungscene/AI_read-paper-list) | -
 
-### Data Augmentation
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
--- | -- | -- | -- | --
-[Mixup](https://arxiv.org/pdf/1710.09412.pdf) | 2018 | - | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/mixup.py#L1)
-[Cutmix](https://arxiv.org/pdf/1905.04899.pdf) | 2019 | - | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/cutmix.py#L1)
-[AutoAugment](https://arxiv.org/pdf/1805.09501v3.pdf) | 2019 | - | - | -
-[RandAugment](https://arxiv.org/pdf/1909.13719.pdf) | 2019 | - | - | -
-
 <br>
 <br>
 
-## NLP
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
+## Util
+NAME | PUBLISHED IN | FIELD | MY REVIEW | CODE
 -- | -- | -- | -- | --
-[CBoW & skip-gram](https://arxiv.org/abs/1301.3781v3) | - | - | - | [only python](https://github.com/jaejungscene/Deep_Learning_from_Scratch/tree/main/Volume_2/ch04)
+[Mixup](https://arxiv.org/pdf/1710.09412.pdf) | 2018 | Data Augmentation | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/mixup.py#L1)
+[Cutmix](https://arxiv.org/pdf/1905.04899.pdf) | 2019 | Data Augmentation | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/cutmix.py#L1)
+[AutoAugment](https://arxiv.org/pdf/1805.09501v3.pdf) | 2019 | Data Augmentation | - | -
+[RandAugment](https://arxiv.org/pdf/1909.13719.pdf) | 2019 | Data Augmentation | - | -
+[Temperature Scaling](https://paperswithcode.com/paper/on-calibration-of-modern-neural-networks) | ICML 2017 | Learning Method | - | -
+[Label Smoothing](https://arxiv.org/abs/1906.02629) | 2019 | Learning Method | - | -
+[ArcFace](https://paperswithcode.com/paper/arcface-additive-angular-margin-loss-for-deep),[Updated ArcFace](https://arxiv.org/abs/1801.07698) | CVPR2019, 2022 | Loss Function, Face Recognition | - | -
 
 <br>
 <br>
@@ -110,12 +107,13 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 <br>
 <br>
 
-## Util
-NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
--- | -- | -- | -- | --
-[Temperature Scaling](https://paperswithcode.com/paper/on-calibration-of-modern-neural-networks) | ICML 2017 | - | - | -
-[Label Smoothing](https://arxiv.org/abs/1906.02629) | 2019 | - | - | -
+## NLP
+NAME | PUBLISHED IN | FIELD | OTHER'S REVIEW | MY REVIEW | CODE
+-- | -- | -- | -- | -- | --
+[CBoW & skip-gram](https://arxiv.org/abs/1301.3781v3) | - | Word2Vec | - | - | [only python](https://github.com/jaejungscene/Deep_Learning_from_Scratch/tree/main/Volume_2/ch04)
 
+<br>
+<br>
 
 -------------------------------------
 
