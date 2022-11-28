@@ -1,5 +1,4 @@
-# Read Paper List
-:sunny:&nbsp;This is a list of every paper I read.
+# ML & DL Paper List
 
 - [Computer Vision](#computer-vision)
   - [Image Classification](#image-classification)
