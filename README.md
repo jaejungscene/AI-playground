@@ -11,10 +11,6 @@
 - [Semi Supervised Learning](#semi-supervised-learning)
   - [Computer Vision](#computer-vision)
 - [NLP](#nlp)
-  
-<br>
-    
-[Later Reading Paper List](#later-reading-paper-list)
 
 <br>
 
@@ -22,7 +18,7 @@
 
 <br>
 
-## Computer Vision
+# Computer Vision
 
 ### Image Classification
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
@@ -80,7 +76,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 <br>
 <br>
 
-## Util
+# Util
 NAME | PUBLISHED IN | FIELD | MY REVIEW | CODE
 -- | -- | -- | -- | --
 [Mixup](https://arxiv.org/pdf/1710.09412.pdf) | 2018 | Data Augmentation | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/mixup.py#L1)
@@ -94,7 +90,7 @@ NAME | PUBLISHED IN | FIELD | MY REVIEW | CODE
 <br>
 <br>
 
-## Semi Supervised Learning
+# Semi Supervised Learning
 
 ### Computer Vision
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
@@ -106,34 +102,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 <br>
 <br>
 
-## NLP
+# NLP
 NAME | PUBLISHED IN | FIELD | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | -- | --
 [CBoW & skip-gram](https://arxiv.org/abs/1301.3781v3) | - | Word2Vec | - | - | [only python](https://github.com/jaejungscene/Deep_Learning_from_Scratch/tree/main/Volume_2/ch04)
-
-<br>
-<br>
-
--------------------------------------
-
-<br>
-
-## Later Reading Paper List
-
-- GloVe
-- Transformer
-
-<br>
-
-- [DARTS](https://arxiv.org/abs/1806.09055)
-- NASNet
-- NFNet
-- SwinT
-- [Residual Attention Network](https://arxiv.org/abs/1704.06904)
-- DenseNet
-- Xception
-- ShuffleNet
-- [MnasNet](https://arxiv.org/abs/1807.11626v3)(2019)
-- [Stochastic Depth](https://arxiv.org/abs/1603.09382v3)(2016)
-- [Unsupervised Data Augmentation](https://arxiv.org/abs/1904.12848), [review](https://medium.com/platfarm/unsupervised-data-augmentation-for-consistency-training-5bcd52d3f01b)
-- [seam carving](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
