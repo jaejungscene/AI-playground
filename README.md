@@ -71,7 +71,7 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 ### Domain Generalization
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
-[Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification](https://arxiv.org/pdf/2012.00417.pdf) | CVPR 2021 | - | [highlighting](https://github.com/jaejungscene/AI_read-paper-list) | -
+[Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification](https://arxiv.org/pdf/2012.00417.pdf) | CVPR 2021 | - | [highlighted](https://github.com/jaejungscene/AI_read-paper-list) | -
 
 <br>
 <br>
@@ -85,7 +85,7 @@ NAME | PUBLISHED IN | FIELD | MY REVIEW | CODE
 [RandAugment](https://arxiv.org/pdf/1909.13719.pdf) | 2019 | Data Augmentation | - | -
 [Temperature Scaling](https://paperswithcode.com/paper/on-calibration-of-modern-neural-networks) | ICML 2017 | Learning Method | - | -
 [Label Smoothing](https://arxiv.org/abs/1906.02629) | 2019 | Learning Method | - | -
-[ArcFace](https://paperswithcode.com/paper/arcface-additive-angular-margin-loss-for-deep), [Updated ArcFace](https://arxiv.org/abs/1801.07698) | CVPR2019, 2022 | Loss Function & Face Recognition | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/e97b18363333ee127b39a2e183bf6f4e891555ce/code/ArcfaceLoss.py#L4)
+[ArcFace](https://paperswithcode.com/paper/arcface-additive-angular-margin-loss-for-deep), [Updated ArcFace](https://arxiv.org/abs/1801.07698) | CVPR2019, 2022 | Loss Function & Face Recognition | [highlighted](https://github.com/jaejungscene/AI-PAPER-LIST/blob/main/mypdf/ArcFace.pdf) | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/e97b18363333ee127b39a2e183bf6f4e891555ce/code/ArcfaceLoss.py#L4)
 
 <br>
 <br>
