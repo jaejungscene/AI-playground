@@ -1,15 +1,16 @@
-# ML & DL Paper List
+# Awesome AI ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
-- [Computer Vision](#computer-vision)
-  - [Image Classification](#image-classification)
-  - [Action Classificatin](#action-classification)
-  - [Object Detection](#object-detection)
-  - [Image Segmentation](#image-segmentation)
-  - [Image Super Resolution](#image-super-resolution)
-  - [Domain Generalization](#domain-generalization)
-- [Util](#util)
+## Table of Contents
+- [Image Classification](#image-classification)
+- [Action Classificatin](#action-classification)
+- [Object Detection](#object-detection)
+- [Image Segmentation](#image-segmentation)
+- [Image Super Resolution](#image-super-resolution)
+- [Face Recognition](#face-recognition)
+- [Domain Generalization](#domain-generalization)
 - [Semi Supervised Learning](#semi-supervised-learning)
-  - [Computer Vision](#computer-vision)
+- [Data Augmentation](#data-augmentation)
+- [Util](#util)
 - [NLP](#nlp)
 
 <br>
@@ -18,9 +19,7 @@
 
 <br>
 
-# Computer Vision
-
-### Image Classification
+## Image Classification
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
 [AlexNet](https://arxiv.org/abs/1512.03385) | NeurIPS 2012 | [korean](https://mountain96.tistory.com/33) | [notion](https://voltaic-chipmunk-57d.notion.site/AlexNet-Deep-Residual-Learning-for-Image-Recognition-0326ff266aa04d59b0202f1f4bfe4cae) | -
@@ -41,12 +40,18 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 [ViT](https://arxiv.org/pdf/2010.11929.pdf) | ICLR 2021 | [korean](https://gaussian37.github.io/dl-concept-vit/) | - | -
 [DeiT](https://arxiv.org/abs/2012.12877) | ICML 2021 | - | - | -
 
-### Action Classification
+<br>
+<br>
+
+## Action Classification
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
 [Non-local Neural Net](https://paperswithcode.com/paper/non-local-neural-networks) | CVPR 2018 | [korean](https://blog.lunit.io/2018/01/19/non-local-neural-networks/) | - | - | -
 
-### Object Detection
+<br>
+<br>
+
+## Object Detection
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
 [RCNN](https://arxiv.org/abs/1311.2524) | 2014 | - | - | -
@@ -57,19 +62,43 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 [YOLO](http://arxiv.org/abs/1506.02640) | 2016 | - | - | -
 [SSD](http://arxiv.org/abs/1512.02325) | 2016 | - | - | -
 
-### Image Segmentation
+<br>
+<br>
+
+## Image Segmentation
+#### Medical(2D, 3D image)
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
 [U-Net](https://arxiv.org/pdf/1505.04597.pdf) | 2015 | - | - | -
+[TransUnet] | - | - | - | -
+[Swin-Unet] | - | - | - | -
 
-### Image Super Resolution
+<br>
+<br>
+
+## Image Super Resolution
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
 [Pixel Shuffle](https://paperswithcode.com/method/pixelshuffle) | 2016 | - | - | -
 [SRCNN](https://arxiv.org/abs/1501.00092)| - | - | - | -
 [SRGAN](https://arxiv.org/abs/1609.04802)| - | - | - | -
 
-### Domain Generalization
+<br>
+<br>
+
+## Face Recognition
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
+-- | -- | -- | -- | --
+[FaceNet]() | - | - | - | -
+[Sphereface]() | - | - | - | -
+[CosFace]() | - | - | - | -
+[ArcFace](https://paperswithcode.com/paper/arcface-additive-angular-margin-loss-for-deep), [Updated ArcFace](https://arxiv.org/abs/1801.07698) | CVPR2019, 2022 | Loss Function & Face Recognition | [highlighted](https://github.com/jaejungscene/AI-PAPER-LIST/blob/main/mypdf/ArcFace.pdf) | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/e97b18363333ee127b39a2e183bf6f4e891555ce/code/ArcfaceLoss.py#L4)
+
+<br>
+<br>
+
+## Domain Generalization
+#### Computer Vision
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
 [Learning to Generalize Unseen Domains via Memory-based Multi-Source Meta-Learning for Person Re-Identification](https://arxiv.org/pdf/2012.00417.pdf) | CVPR 2021 | - | [highlighted](https://github.com/jaejungscene/AI_read-paper-list) | -
@@ -77,26 +106,8 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 <br>
 <br>
 
-# Util
-NAME | PUBLISHED IN | FIELD | MY REVIEW | CODE
--- | -- | -- | -- | --
-[Mixup](https://arxiv.org/pdf/1710.09412.pdf) | 2018 | Data Augmentation | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/mixup.py#L1)
-[Cutmix](https://arxiv.org/pdf/1905.04899.pdf) | 2019 | Data Augmentation | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/cutmix.py#L1)
-[AutoAugment](https://arxiv.org/pdf/1805.09501v3.pdf) | 2019 | Data Augmentation | - | -
-[RandAugment](https://arxiv.org/pdf/1909.13719.pdf) | 2019 | Data Augmentation | - | -
-[Temperature Scaling](https://paperswithcode.com/paper/on-calibration-of-modern-neural-networks) | ICML 2017 | Learning Method | - | -
-[Label Smoothing](https://arxiv.org/abs/1906.02629) | 2019 | Learning Method | - | -
-[FaceNet]()
-[Sphereface]()
-[CosFace]()
-[ArcFace](https://paperswithcode.com/paper/arcface-additive-angular-margin-loss-for-deep), [Updated ArcFace](https://arxiv.org/abs/1801.07698) | CVPR2019, 2022 | Loss Function & Face Recognition | [highlighted](https://github.com/jaejungscene/AI-PAPER-LIST/blob/main/mypdf/ArcFace.pdf) | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/e97b18363333ee127b39a2e183bf6f4e891555ce/code/ArcfaceLoss.py#L4)
-
-<br>
-<br>
-
-# Semi Supervised Learning
-
-### Computer Vision
+## Semi Supervised Learning
+#### Computer Vision
 NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | --
 [Pseudo Label](https://www.researchgate.net/publication/280581078_Pseudo-Label_The_Simple_and_Efficient_Semi-Supervised_Learning_Method_for_Deep_Neural_Networks) | 2013 | [korean](https://deep-learning-study.tistory.com/553) | - | -
@@ -106,7 +117,28 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 <br>
 <br>
 
-# NLP
+## Data Augmentation
+#### Computer Vision
+NAME | PUBLISHED IN | FIELD | MY REVIEW | CODE
+-- | -- | -- | -- | --
+[Mixup](https://arxiv.org/pdf/1710.09412.pdf) | 2018 | Data Augmentation | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/mixup.py#L1)
+[Cutmix](https://arxiv.org/pdf/1905.04899.pdf) | 2019 | Data Augmentation | - | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/0db9c4b346ae68a34bb2c15d4e0cddd3a9427c7d/code/cutmix.py#L1)
+[AutoAugment](https://arxiv.org/pdf/1805.09501v3.pdf) | 2019 | Data Augmentation | - | -
+[RandAugment](https://arxiv.org/pdf/1909.13719.pdf) | 2019 | Data Augmentation | - | -
+
+<br>
+<br>
+
+## Util
+NAME | PUBLISHED IN | FIELD | MY REVIEW | CODE
+-- | -- | -- | -- | --
+[Temperature Scaling](https://paperswithcode.com/paper/on-calibration-of-modern-neural-networks) | ICML 2017 | Learning Method | - | -
+[Label Smoothing](https://arxiv.org/abs/1906.02629) | 2019 | Learning Method | - | -
+
+<br>
+<br>
+
+## NLP
 NAME | PUBLISHED IN | FIELD | OTHER'S REVIEW | MY REVIEW | CODE
 -- | -- | -- | -- | -- | --
 [CBoW & skip-gram](https://arxiv.org/abs/1301.3781v3) | - | Word2Vec | - | - | [only python](https://github.com/jaejungscene/Deep_Learning_from_Scratch/tree/main/Volume_2/ch04)
