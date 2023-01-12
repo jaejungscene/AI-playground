@@ -7,6 +7,7 @@
 - [Image Segmentation](#image-segmentation)
 - [Image Super Resolution](#image-super-resolution)
 - [Face Recognition](#face-recognition)
+- [Meta Learning](#meta-learning)
 - [Domain Generalization](#domain-generalization)
 - [Semi Supervised Learning](#semi-supervised-learning)
 - [Data Augmentation](#data-augmentation)
@@ -93,6 +94,17 @@ NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
 [Sphereface]() | - | - | - | -
 [CosFace]() | - | - | - | -
 [ArcFace](https://paperswithcode.com/paper/arcface-additive-angular-margin-loss-for-deep), [Updated ArcFace](https://arxiv.org/abs/1801.07698) | CVPR2019, 2022 | Loss Function & Face Recognition | [highlighted](https://github.com/jaejungscene/AI-PAPER-LIST/blob/main/mypdf/ArcFace.pdf) | [code](https://github.com/jaejungscene/AI_read-paper-list/blob/e97b18363333ee127b39a2e183bf6f4e891555ce/code/ArcfaceLoss.py#L4)
+
+
+<br>
+<br>
+
+## Meta Learning
+NAME | PUBLISHED IN | OTHER'S REVIEW | MY REVIEW | CODE
+-- | -- | -- | -- | --
+SiameseNet | - | - | - | -
+MatchingNet | - | - | - | -
+
 
 <br>
 <br>
