@@ -1,6 +1,6 @@
 # Awesome AI ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 This page will continue to be updated.  
-A curated list of resources is dedicated to every AI topics.  
+A curated list of resources is dedicated to every AI topic.  
 Feel free to pull requests.  
 
 
