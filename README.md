@@ -42,11 +42,11 @@ Year | Name | Paper | Code
 |2018|Squeeze Excitation Network: Squeeze-and-Excitation Networks|[PDF](https://arxiv.org/pdf/1709.01507.pdf)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/longyunguo/cnn-with-a-squeeze-and-excitation-mechanism) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/hujie-frank/SENet)|
 |2018|Residual Attention Network: Residual Attention Network for Image Classification|[PDF](https://arxiv.org/pdf/1704.06904.pdf)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/chanhu/residual-attention-network-pytorch/notebook) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/tengshaofeng/ResidualAttentionNetwork-pytorch)|
 |2019|CBAM: Convolutional Block Attention Module|[PDF](https://arxiv.org/pdf/1807.06521.pdf)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/marcberghouse/cnn-with-cbam-module) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/elbuco1/CBAM)|
-|2019|MobileNetV3: Searching for MobileNetV3|[PDF](https://arxiv.org/pdf/1905.02244v5.pdf)|-|
-|2020|RegeNet: Designing Network Design Spaces|[PDF](https://arxiv.org/pdf/2003.13678.pdf)|-|
+|2019|MobileNetV3: Searching for MobileNetV3|[PDF](https://arxiv.org/pdf/1905.02244v5.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/xiaolai-sqlai/mobilenetv3/blob/adc0ca87e1dd8136cd000ae81869934060171689/mobilenetv3.py#L75)|
+|2020|RegeNet: Designing Network Design Spaces|[PDF](https://arxiv.org/pdf/2003.13678.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/signatrix/regnet/blob/master/src/regnet.py#L9)|
 |2021|EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks|[PDF](https://arxiv.org/pdf/1905.11946.pdf)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/vikramsandu/efficientnet-from-scratch) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/lukemelas/EfficientNet-PyTorch)|
 |2021|Vision Transformer: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale|[PDF](https://arxiv.org/pdf/2010.11929.pdf)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/manabendrarout/vision-transformer-vit-pytorch-on-tpus-train/notebook) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/google-research/vision_transformer)|
-|2021|DeiT: Training data-efficient image transformers & distillation through attention|[PDF](https://arxiv.org/pdf/2012.12877.pdf)|-|
+|2021|DeiT: Training data-efficient image transformers & distillation through attention|[PDF](https://arxiv.org/pdf/2012.12877.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/facebookresearch/deit/blob/main/models.py#L20)|
 |2021|Swin Transformer: Hierarchical Vision Transformer using Shifted Windows|[PDF](https://arxiv.org/pdf/2103.14030.pdf)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/pdochannel/swin-transformer-in-pytorch) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/microsoft/Swin-Transformer)|
 |2022|ConvNeXt: A ConvNet for the 2020s|[PDF](https://arxiv.org/pdf/2201.03545.pdf)| [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/kalelpark/review-a-convnet-for-the-2020s) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/facebookresearch/ConvNeXt)|
 |2023|ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders|[PDF](https://arxiv.org/pdf/2301.00808.pdf)| [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/facebookresearch/ConvNeXt-V2)|
@@ -58,7 +58,7 @@ Year | Name | Paper | Code
 ## Action Classification
 Year | Name | Paper | Code
 -- | -- | -- | -- |
-|2018|Non-local Neural Networks|[PDF](https://paperswithcode.com/paper/non-local-neural-networks)|-
+|2018|Non-local Neural Networks|[PDF](https://paperswithcode.com/paper/non-local-neural-networks)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/tea1528/Non-Local-NN-Pytorch)
 
 <br>
 <br>
@@ -77,7 +77,6 @@ Year | Name | Paper | Code
 |2018|YOLOv3: An Incremental Improvement|[PDF](http://cn.arxiv.org/pdf/1804.02767.pdf)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/ultralytics/yolov3) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/ayooshkathuria/pytorch-yolo-v3)|
 |2018|RefineDet: Single-Shot Refinement Neural Network for Object Detection|[PDF](http://cn.arxiv.org/pdf/1711.06897.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/sfzhang15/RefineDet)|
 |2018|M2Det: A Single-Shot Object Detector based on Multi-Level Feature Pyramid Network|[PDF](https://qijiezhao.github.io/imgs/m2det.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/VDIGPKU/M2Det)|
-|2018|MetaAnchor: Learning to Detect Objects with Customized Anchors|[PDF](https://papers.nips.cc/paper/2018/file/69adc1e107f7f7d035d7baf04342e1ca-Paper.pdf)||
 |2019|Mask scoring r-cnn|[PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Huang_Mask_Scoring_R-CNN_CVPR_2019_paper.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/zjhuang22/maskscoring_rcnn)|
 |2019|FSFA: Feature selective anchor-free module for single-shot object detection|[PDF](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhu_Feature_Selective_Anchor-Free_Module_for_Single-Shot_Object_Detection_CVPR_2019_paper.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/hdjang/Feature-Selective-Anchor-Free-Module-for-Single-Shot-Object-Detection)|
 |2019|Scratchdet: Exploring to train single-shot object detectors from scratch|[PDF](https://arxiv.org/pdf/1810.08425.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/KimSoybean/ScratchDet)|
@@ -86,7 +85,8 @@ Year | Name | Paper | Code
 <br>
 
 ## Image Segmentation
-#### Medical(2D, 3D image)
+#### Segmantic Segmentation
+###### Medical(2D, 3D image)
 Year | Name | Paper | Code
 -- | -- | -- | -- |
 |2015|U-Net: Convolutional Networks for Biomedical Image Segmentation|[PDF](https://arxiv.org/pdf/1505.04597.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/milesial/Pytorch-UNet)|
