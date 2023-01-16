@@ -118,10 +118,10 @@ Year | Name | Paper | Code
 <br>
 <br>
 
-## Image Classification
+## 3D Reconstruction
 Year | Name | Paper | Code
 -- | -- | -- | -- |
-|2020|NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis|[PDF](https://arxiv.org/pdf/2003.08934.pdf)|
+|2020|NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis|[PDF](https://arxiv.org/pdf/2003.08934.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/nvlabs/instant-ngp)
 
 <br>
 <br>
