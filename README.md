@@ -1,6 +1,6 @@
 # Awesome AI ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 This page is just for a quick look at the AI papers I've read, so it will continue to be updated.  
-Feel free to pull requests and arrange it your way.  
+Feel free to pull requests.  
 
 
 ## Table of Contents
@@ -10,6 +10,7 @@ Feel free to pull requests and arrange it your way.
 - [Image Segmentation](#image-segmentation)
 - [Image Super Resolution](#image-super-resolution)
 - [Face Recognition](#face-recognition)
+- [3D Reconstruction](#3d-reconstruction)
 - [Meta Learning](#meta-learning)
 - [Domain Generalization](#domain-generalization)
 - [Semi Supervised Learning](#semi-supervised-learning)
@@ -113,6 +114,14 @@ Year | Name | Paper | Code
 |2018|SphereFace: Deep Hypersphere Embedding for Face Recognition|[PDF](https://arxiv.org/pdf/1704.08063.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/clcarwin/sphereface_pytorch)|
 |2018|CosFace: Large Margin Cosine Loss for Deep Face Recognition|[PDF](https://arxiv.org/pdf/1801.09414.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/MuggleWang/CosFace_pytorch)|
 |2018|ArcFace: Additive Angular Margin Loss for Deep Face Recognition|[PDF](https://arxiv.org/pdf/1801.07698.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/ronghuaiyang/arcface-pytorch)|
+
+<br>
+<br>
+
+## Image Classification
+Year | Name | Paper | Code
+-- | -- | -- | -- |
+|2020|NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis|[PDF](https://arxiv.org/pdf/2003.08934.pdf)|
 
 <br>
 <br>
