@@ -1,6 +1,5 @@
 # Awesome AI ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
-This page is just for a quick look at the AI papers I've read, so it will continue to be updated.  
-Feel free to pull requests.  
+This page is just for a quick look at the AI papers.  
 
 
 ## Table of Contents
