@@ -126,12 +126,20 @@ Year | Name | Paper | Code
 <br>
 
 ## Meta Learning
+#### Metric-based Learning
 Year | Name | Paper | Code
 -- | -- | -- | -- |
 |2015|SiameseNet: Siamese Neural Networks for One-shot Image Recognition|[PDF](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/SoongE/siamese-one-shot-pytorch)|
 |2016|MatchingNet: Matching Networks for One Shot Learning|[PDF](https://proceedings.neurips.cc/paper/2016/file/90e1357833654983612fb05e3ec9148c-Paper.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/facebookresearch/low-shot-shrink-hallucinate/blob/main/matching_network.py)|
 |2017|ProtoNet : Prototypical Networks for Few-shot Learning|[PDF](https://proceedings.neurips.cc/paper/2017/file/cb8da6767461f2812ae4290eac7cbc42-Paper.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/jakesnell/prototypical-networks)|
 |2017|RelationNet : Learning to Compare: Relation Network for Few-Shot Learning|[PDF](https://arxiv.org/pdf/1711.06025.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/floodsung/LearningToCompare_FSL)|
+
+#### Model-based Learning
+Year | Name | Paper | Code
+-- | -- | -- | -- |
+|2016|One-shot Learning with Memory-Augmented Neural Networks|[PDF](https://arxiv.org/pdf/1605.06065v1.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/tristandeleu/ntm-one-shot/blob/master/mann/model.py)
+|2017|Meta Networks|[PDF](https://arxiv.org/pdf/1703.00837.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://bitbucket.org/tsendeemts/metanet/src/master/)
+
 
 <br>
 <br>
