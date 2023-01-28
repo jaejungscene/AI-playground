@@ -47,6 +47,7 @@ Year | Name | Paper | Code
 |2021|Vision Transformer: An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale|[PDF](https://arxiv.org/pdf/2010.11929.pdf)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/manabendrarout/vision-transformer-vit-pytorch-on-tpus-train/notebook) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/google-research/vision_transformer)|
 |2021|DeiT: Training data-efficient image transformers & distillation through attention|[PDF](https://arxiv.org/pdf/2012.12877.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/facebookresearch/deit/blob/main/models.py#L20)|
 |2021|Swin Transformer: Hierarchical Vision Transformer using Shifted Windows|[PDF](https://arxiv.org/pdf/2103.14030.pdf)|[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/pdochannel/swin-transformer-in-pytorch) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/microsoft/Swin-Transformer)|
+|2012|Pyramid vision transformer: A versatile backbone for dense prediction without convolutions|[PDF](https://arxiv.org/pdf/2102.12122.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/whai362/PVT)
 |2022|ConvNeXt: A ConvNet for the 2020s|[PDF](https://arxiv.org/pdf/2201.03545.pdf)| [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/kalelpark/review-a-convnet-for-the-2020s) [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/facebookresearch/ConvNeXt)|
 |2023|ConvNeXt V2: Co-designing and Scaling ConvNets with Masked Autoencoders|[PDF](https://arxiv.org/pdf/2301.00808.pdf)| [![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/facebookresearch/ConvNeXt-V2)|
 
@@ -92,6 +93,7 @@ Year | Name | Paper | Code
 |2021|TransUnet: Transformers make Strong Encoders for Medical Image Segmentation|[PDF](https://arxiv.org/pdf/2102.04306.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/Beckschen/TransUNet)|
 |2021|Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation|[PDF](https://arxiv.org/pdf/2105.05537.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/HuCaoFighting/Swin-Unet)|
 |2021|UNETR: Transformers for 3D Medical Image Segmentation|[PDF](https://arxiv.org/pdf/2103.10504.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/Project-MONAI/research-contributions/tree/main/UNETR/BTCV)
+|2023|Medical Image Segmentation via Cascaded Attetnion Decoding|[PDF](https://openaccess.thecvf.com/content/WACV2023/papers/Rahman_Medical_Image_Segmentation_via_Cascaded_Attention_Decoding_WACV_2023_paper.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/SLDGroup/CASCADE)
 
 <br>
 <br>
