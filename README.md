@@ -10,6 +10,7 @@ This page is just for a quick look at the AI papers.
 - [Image Super Resolution](#image-super-resolution)
 - [Face Recognition](#face-recognition)
 - [3D Reconstruction](#3d-reconstruction)
+- [Diffusion](#diffusion)
 - [Meta Learning](#meta-learning)
 - [Domain Generalization](#domain-generalization)
 - [Semi Supervised Learning](#semi-supervised-learning)
@@ -123,6 +124,15 @@ Year | Name | Paper | Code
 Year | Name | Paper | Code
 -- | -- | -- | -- |
 |2020|NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis|[PDF](https://arxiv.org/pdf/2003.08934.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/nvlabs/instant-ngp)
+
+<br>
+<br>
+
+
+## Diffusion
+Year | Name | Paper | Code
+-- | -- | -- | -- |
+|2020|Denoising Diffusion Probabilistic Models|[PDF](https://arxiv.org/pdf/2006.11239v2.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/lucidrains/denoising-diffusion-pytorch)
 
 <br>
 <br>
