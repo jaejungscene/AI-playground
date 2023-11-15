@@ -102,12 +102,6 @@ def trunc_normal_(tensor, mean=0., std=1., a=-2., b=2.):
 
 
 
-
-
-
-
-
-
 def drop_path(x, drop_prob: float = 0., training: bool = False, scale_by_keep: bool = True):
     """Drop paths (Stochastic Depth) per sample (when applied in main path of residual blocks).
     This is the same as the DropConnect impl I created for EfficientNet, etc networks, however,

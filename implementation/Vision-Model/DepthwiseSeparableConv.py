@@ -1,3 +1,5 @@
+import torch.nn as nn
+
 class DepthwiseSeparableConv(nn.Sequential):
     def __init__(self, inch, outch, kernel, stride=1, padding=0):
         super(DepthwiseSeparableConv,self).__init__(

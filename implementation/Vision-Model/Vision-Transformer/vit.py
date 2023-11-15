@@ -1,11 +1,7 @@
 import torch
 import torch.nn as nn
 import numpy as np
-
-
-
-
-
+from einops import rearrange, repeat
 
 
 class DropPath(nn.Module):
@@ -56,7 +52,7 @@ class PatchEmbed(nn.Module):
         self.norm = norm_layer(embed_dim) if norm_layer else nn.Identity()
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        B, C, H, W = x
+        B, C, H, W = x.shape
         x = self.proj(x)
         if self.flatten:
             x = x.flatten(2).transpose(1,2) # B,numPatchH*numPatchW, C
@@ -91,14 +87,14 @@ class MultiHeadSelfAttention(nn.Module):
         qkv = self.qkv(x).reshape(B, N, 3, self.num_heads, C//self.num_heads).permute(2, 0, 3, 1, 4)
         q, k, v = qkv.unbind(0)
 
-        attn = (q @ k.transpose(-2,-1)) * self.scale
+        attn = (q @ k.transpose(-2, -1)) * self.scale
         attn_probs = attn.softmax(dim=-1)
         attn = self.attn_drop(attn_probs)
 
         x = (attn @ v).transpose(1,2).reshape(B, N, C)
         x = self.proj(x)
         x = self.proj_drop(x)
-        return x, attn_probs
+        return x
 
 
 
@@ -126,11 +122,12 @@ class Mlp(nn.Module):
 
 
 
-class Block(nn.Module):
+class Transformer(nn.Module):
     def __init__(
         self,
         dim : int,
         num_heads : int,
+        depth : int,
         mlp_ratio : int = 4,
         qkv_bias : bool = False,
         drop_rate : float = 0.,
@@ -139,18 +136,23 @@ class Block(nn.Module):
         act_layer = nn.GELU,
         norm_layer = nn.LayerNorm,
     ) -> None:
-        super(Block, self).__init__()
-        self.norm1 = norm_layer(dim)
-        self.attn = MultiHeadSelfAttention(dim, num_heads, qkv_bias, attn_drop, drop_rate)
-        self.drop_path1 = DropPath(drop_path) if drop_path>0. else nn.Identity()
-
-        self.norm2 = norm_layer(dim)
-        self.mlp = Mlp(dim, int(dim*mlp_ratio), dim, act_layer, drop_rate)
-        self.drop_path2 = DropPath(drop_path) if drop_path>0. else nn.Identity()
+        super(Transformer, self).__init__()
+        self.layers = nn.ModuleList([])
+        dpr = [x for x in np.linspace(0, drop_path, depth)]
+        for i in range(depth):
+            self.layers.append(nn.ModuleList([
+                norm_layer(dim),
+                MultiHeadSelfAttention(dim, num_heads, qkv_bias, attn_drop, drop_rate),
+                DropPath(dpr[i]) if dpr[i]>0. else nn.Identity(),
+                norm_layer(dim),
+                Mlp(dim, int(dim*mlp_ratio), dim, act_layer, drop_rate),
+                DropPath(dpr[i]) if dpr[i]>0. else nn.Identity()
+            ]))
     
     def forward(self, x : torch.Tensor) -> torch.Tensor:
-        x = x + self.drop_path1(self.attn(self.norm1(x)))
-        x = x + self.drop_path2(self.mlp(self.norm2(x)))
+        for norm1, mhsa, drop1, norm2, mlp, drop2 in self.layers:
+            x = x + drop1(mhsa(norm1(x)))
+            x = x + drop2(mlp(norm2(x)))
         return x
 
 
@@ -171,16 +173,15 @@ class VisionTransformer(nn.Module):
         global_pool='token',
         embed_dim:int=768,
         depth:int=12,
-        num_heads:int=12,
+        num_heads:int=64,
         mlp_ratio:float=4.,
         qkv_bias:bool=True,
         class_token:bool=True,
         drop_rate:float=0.,
         drop_path:float=0.,
         attn_drop:float=0.,
-        weight_init:str='',
-        norm_layer=None,
-        act_layer=None,
+        act_layer = nn.GELU,
+        norm_layer = nn.LayerNorm,
     ) -> None:
         super().__init__()
         assert global_pool in ('', 'avg', 'token')
@@ -199,31 +200,44 @@ class VisionTransformer(nn.Module):
         num_patches = (img_size//patch_size)**2
         
         self.cls_token = nn.Parameter(torch.zeros(1,1,embed_dim)) if class_token else None
-        self.pos_embed = nn.Parameter(torch.randn(1, num_patches, embed_dim)*0.02)
-        self.pos_drop = nn.Dropout(p=drop_rate)
-
-        dpr = [x for x in np.linspace(0, drop_path, depth)]
-        self.blocks = nn.Squential(
-            *[Block(
-                dim=embed_dim,
-                num_heads=num_heads,
-                mlp_ratio=mlp_ratio,
-                qkv_bias=qkv_bias,
-                drop_rate=drop_rate,
-                drop_path=dpr[i],
-                attn_drop=attn_drop,
-                norm_layer=norm_layer,
-                act_layer=act_layer
-            )   for i in range(depth)]
+        if class_token:
+            self.pos_embed = nn.Parameter(torch.randn(1, num_patches+1, embed_dim)*0.02)
+        else:
+            self.pos_embed = nn.Parameter(torch.randn(1, num_patches, embed_dim)*0.02)
+        self.dropout = nn.Dropout(p=drop_rate)
+        
+        self.transformer = Transformer(
+            dim=embed_dim,
+            num_heads=num_heads,
+            depth=depth,
+            mlp_ratio=mlp_ratio,
+            qkv_bias=qkv_bias,
+            drop_rate=drop_rate,
+            drop_path=drop_path,
+            attn_drop=attn_drop,
+            norm_layer=norm_layer,
+            act_layer=act_layer
         )
 
         if num_classes > 0:
-            self.norm = norm_layer(embed_dim)
             self.head = nn.Linear(self.embed_dim, num_classes)
         
-        if weight_init != 'skip':
-            self.init_weights(weight_init)
+        self.to_latent = nn.Identity()
+    
+    def forward(self, img):
+        x = self.patch_embed(img)
+        b, n, _ = x.shape
+        print(x.shape)
+
+        cls_tokens = repeat(self.cls_token, "1 1 d -> b 1 d", b=b)
+        x = torch.cat((cls_tokens, x), dim=1)
+        x += self.pos_embed[:, :(n+1)]
+        x = self.dropout(x)
+
+        x = self.transformer(x)
+        x = x.meam(dim=1) if self.global_pool == 'mean' else x[:, 0]
+
+        x = self.to_latent(x)
+        return self.head(x)
         
-    # def init_weights(self, mode=''):
-    #     assert 
         

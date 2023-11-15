@@ -1,3 +1,7 @@
+import torch
+import random
+import torch.nn.functional as F
+
 class MixUP:
     def __init__(self, p=0.5, alpha=1.0, nclass=1000):
         self.p = p

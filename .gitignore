@@ -1,2 +1,5 @@
-test*
+.venv
+.vscode
+
+test
 .ipynb_checkpoints

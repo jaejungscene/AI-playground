@@ -1,7 +1,13 @@
+import torch.nn as nn
+import torch
+import math
+import torch.nn.functional as F
+from torch.nn import init
+
 def conv_1(in_dim, out_dim):
     # 1x1 연산
     model = nn.Sequential(
-        nn.Conv2d(in_dim, out_dim, 1, 1)
+        nn.Conv2d(in_dim, out_dim, 1, 1),
         nn.ReLU(),
     )
     return model
@@ -10,7 +16,7 @@ def conv_1_3(in_dim, mid_dim, out_dim):
     # 1x1 연산 + 3x3 연산
     model = nn.Sequential(
         nn.Conv2d(in_dim, mid_dim, 1, 1),
-        nn.ReLU()
+        nn.ReLU(),
         nn.Conv2d(mid_dim, out_dim, 3, 1, 1),
         nn.ReLU()
     )
@@ -32,11 +38,11 @@ def max_3_1(in_dim, out_dim):
         nn.MaxPool2d(3, 1, 1),
         nn.Conv2d(in_dim, out_dim, 1, 1),
         nn.ReLU(),
-    )https://github.com/jaejungscene/AI_read-paper-list
+    )
     return model
   
   
-  class inception_module(nn.Module):
+class inception_module(nn.Module):
     def __init__(self, in_dim, out_dim_1, mid_dim_3, out_dim_3, mid_dim_5, out_dim_5, pool):
         super(inception_module, self).__init__()
 
