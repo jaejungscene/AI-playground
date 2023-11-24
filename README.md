@@ -1,7 +1,6 @@
 # Awesome AI ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 
 ## Table of Contents
-  - [Table of Contents](#table-of-contents)
   - [Image Classification](#image-classification)
   - [Action Classification](#action-classification)
   - [Object Detection](#object-detection)
@@ -15,6 +14,7 @@
   - [Semi Supervised Learning](#semi-supervised-learning)
   - [Data Augmentation](#data-augmentation)
   - [Natural Language Processing](#natural-language-processing)
+  - [Computer System for AI](#computer-system-for-ai)
   - [Util](#util)
 
 <br>
@@ -191,6 +191,21 @@ Year | Name | Paper | Code
 -- | -- | -- | -- |
 |2013|CBoW & skip-gram: Efficient Estimation of Word Representations in Vector Space|[PDF](https://arxiv.org/pdf/1301.3781v3.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/jaejungscene/Deep_Learning_from_Scratch/tree/main/Volume_2/ch04)
 |2017|Transformer: Attention Is All You Need|[PDF](https://arxiv.org/pdf/1706.03762.pdf)|[![GitHub](https://badges.aleen42.com/src/github.svg)](https://github.com/jadore801120/attention-is-all-you-need-pytorch/blob/master/transformer/Models.py#L128)
+
+<br>
+<br>
+
+## Computer System for AI
+Year | Name | Paper | Code
+-- | -- | -- | -- |
+|2016|Perceptron Learning for Reuse Prediction|[PDF](https://people.engr.tamu.edu/djimenez/pdfs/micro2016-perceptron.pdf)|
+|2018|The Case for Learned Index Structures|[PDF](https://arxiv.org/abs/1712.01208)|
+|2019|Improving Parallelism of Breadth First Search (BFS) Algorithm for Accelerated Performance on GPUs|[PDF](https://ieeexplore.ieee.org/document/8916551)|
+|2020|An Imitation Learning Approach for Cache Replacement|[PDF](https://arxiv.org/abs/2006.16239)|
+|2020|ALEX: An Updatable Adaptive Learned Index|[PDF](https://arxiv.org/abs/1905.08898)|
+|2021|FlashNeuron: SSD-Enabled Large-Batch Training of Very Deep Neural Networks|[PDF](https://www.usenix.org/conference/fast21/presentation/bae)|
+|2023|EnvPipe: Performance-preserving DNN Training Framework for Saving Energy|[PDF](https://www.usenix.org/conference/atc23/presentation/choi)|
+|2023|FLASH: Towards a High-performance Hardware Acceleration Architecture for Cross-silo Federated Learning|[PDF](https://www.usenix.org/conference/nsdi23/presentation/zhang-junxue)|
 
 <br>
 <br>
